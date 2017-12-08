@@ -1,0 +1,25 @@
+{
+  "name": "mutant-attachable",
+  "version": "1.0.0",
+  "description": "A utility for React components to easily subscribe to Mutant streams",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "tape test.js",
+    "prepublishOnly": "npm run compile"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "tape": "^4.8.0",
+    "typescript": "2.6.x"
+  },
+  "dependencies": {
+    "@types/react": "16.x.x",
+    "mutant": "3.x.x",
+    "react": "16.x.x",
+    "react-test-renderer": "^16.2.0"
+  }
+}
