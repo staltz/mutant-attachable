@@ -1,4 +1,4 @@
-# mutant-attachble
+# mutant-attachable
 
 ```
 yarn add mutant-attachable
