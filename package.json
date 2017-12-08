@@ -1,6 +1,6 @@
 {
   "name": "mutant-attachable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility for React components to easily subscribe to Mutant streams",
   "main": "index.js",
   "typings": "index.d.ts",
