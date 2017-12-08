@@ -61,7 +61,7 @@ In JavaScript:
      }
 
      componentWillUnMount() {
- +       detachMutant(this, 'isBlue');
++        detachMutant(this, 'isBlue');
      }
 
     // ...
@@ -149,9 +149,9 @@ Call this function in `componentDidMount` in order to attach the mutant
 stream that exists in the props. The values from the stream will be written
 to the React component state.
 
-**param instance**: React component instance (`this` keyword, when inside `componentDidMount`)
-**param name:** string that identifies the mutant stream to be attached.
-**param update:** optional function that takes a value (from the mutant stream) and can call `this.setState` to update the React component state.
+- **param instance**: React component instance (`this` keyword, when inside `componentDidMount`)
+- **param name:** string that identifies the mutant stream to be attached.
+- **param update:** optional function that takes a value (from the mutant stream) and can call `this.setState` to update the React component state.
 
 ### `detachMutant(instance, name)`
 
@@ -160,7 +160,7 @@ Detach a mutant stream from a React component.
 Call this function in `componentWillUnmount` in order to detach the mutant
 stream from the React component.
 
-**param instance:** React component instance (`this` keyword, when inside `componentWillUnmount`)
-**paren name:** string that identifies the mutant stream to be attached.
+- **param instance:** React component instance (`this` keyword, when inside `componentWillUnmount`)
+- **param name:** string that identifies the mutant stream to be attached.
 
 
