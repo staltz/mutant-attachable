@@ -18,8 +18,8 @@
     "react-test-renderer": "^16.2.0"
   },
   "dependencies": {
-    "@types/react": "16.x.x",
-    "mutant": "3.x.x",
-    "react": "16.x.x"
+    "@types/react": "16.x",
+    "mutant": "3.x",
+    "react": "16.x"
   }
 }
