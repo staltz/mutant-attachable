@@ -1,5 +1,7 @@
 # mutant-attachable
 
+**DEPRECATED**: I'm not using neither maintaining this package anymore. It might still be useful to you, though, but I just wanted to let you informed. I plan to use `react-mutant-hoc` instead.
+
 ```
 yarn add mutant-attachable
 ```
